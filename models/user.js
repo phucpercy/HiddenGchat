@@ -7,6 +7,8 @@ var user = new Schema({
     userID: {type: ObjectID},
     firstName: {type: String, required: true, max: 100},
     lastName: {type: String, required: true, max: 100},
+    username: {type: String, unique: true, required:true},
+    email: {type: String, required: true},
     password: {type: String, required: true},
     dateOfBirth: {type: Date, required: true}
 });
