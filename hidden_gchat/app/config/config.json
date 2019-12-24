@@ -1,0 +1,27 @@
+{
+	"db": {
+		"username": "heroku_fg02rhwd",
+		"password": "nv4lqhta7g8atdbppncgfdud87",
+		"host": "ds125053.mlab.com",
+		"port": "25053",
+		"name": "heroku_fg02rhwd"
+	},
+	"sessionSecret": "<RandomString>",
+	"facebook": {
+		"clientID": "974087859643097",
+		"clientSecret": "a21ce1dadf0f8563cec7737911b21c5e",
+		"callbackURL": "http://hiddengchat.herokuapp.com/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "<ConsumerKey>",
+		"consumerSecret": "<ConsumerSecret>",
+		"callbackURL": "/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"redis": {
+		"host": "ec2-3-210-107-30.compute-1.amazonaws.com",
+		"port": 13969,
+		"password": "pffbc3672c3c1eb48a9d0d45a7624de9e4ff3bee1448eaab93c4c96ffce49efd6"
+	}
+}
